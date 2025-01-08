@@ -1,0 +1,23 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.navbarContatiner {
+  background-color: rgb(165, 165, 227);
+}
+.navbar-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 60px;
+}
+.navbar-item {
+  cursor: default;
+  list-style-type: none;
+  display: flex;
+  gap: 30px;
+}
+.navbar-item > li {
+  font-size: 20px;
+}
